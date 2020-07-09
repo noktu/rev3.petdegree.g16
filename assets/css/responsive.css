@@ -1,0 +1,49 @@
+/* For Tablets */
+@media (max-width: 1000px) {
+  .service {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .testimony-list {
+    flex-wrap: wrap;
+  }
+
+  .testimony-container {
+    width: 40%;
+  }
+}
+
+/* Untuk Smartphones */
+@media (max-width: 670px) {
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon.fa {
+    display:block;
+  }
+
+
+  .service {
+    width: 100%;
+  }
+
+  .testimony-list {
+    flex-direction: column;
+  }
+
+  .testimony-container {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+}

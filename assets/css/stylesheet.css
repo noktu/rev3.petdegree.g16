@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+/* ------*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(77, 70, 41, 1.0);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  height: 50px;
+  padding-top: 5px;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0px 25px;
+  color: white;
+  display: inline-block;
+  float: left;
+  transition: all 1s;
+}
+
+.layanan:hover {
+  background-color: #507800;
+}
+
+.kontak:hover {
+  background-color: #C8A000;
+}
+
+.login:hover {
+  background-color: #507800;
+}
+
+.menu-icon.fa {  /**/
+  display: none;
+}
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.main-area {
+  height: 655px;
+}
+
+footer img {
+  height: 60px;
+}
+
+footer {
+  background-color: #5D682E;
+  padding: 10px 0;
+}
+
+
+.utama-wrapper {
+  padding: 40px 0 300px 0;
+  background-image: url(vincent-van-zalinge-Q6mPgrzcsVY-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("../images/background-top.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 55px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+  opacity: 1;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  color: white;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.tmbl {
+  background-color: #239b76;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+/* ----- */
+
+
+.services-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.services-heading {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #ad6002;
+}
+
+.extra2-heading h2 {
+  font-weight: normal;
+}
+
+.service {
+  float: left;
+  width: 25%;
+}
+
+.service-logo {
+  position: relative;
+}
+
+.service-logo p {
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #ad6002;
+}
+
+
+/*---*/
+.testimony-wrapper {
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.testimony-list {
+  display: flex;
+}
+.testimony-list .testimony-container {
+  flex: auto;
+}
+
+.testimony-container {
+    background-color: #384216;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: 'arial';
+    margin: 10px 10px;
+    padding: 5px 8px;
+    width: 20%;
+    max-height: 270px;
+    font-size:12px;
+}
+
+.testimonial {
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.testimonial span{
+ color: black;
+ font-size:30px;
+ font-weight: bold;
+}
+
+.centered-items {
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit:cover;
+}
+
+.user-details {
+}
+
+.username {
+    margin: 0;
+}
+
+.role {
+    font-weight: normal;
+    margin: 2px 0;
+}
+
+/*-----------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.about-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+}
+
+.findme {
+  padding-bottom: 80px;
+  background-color: rgba(221, 221, 221, 0.5);
+}
+
+
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex: auto;
+}
+
+.left {
+    width: 30%;
+}
+.right {
+    width: 70%;
+}
+.full{
+  width: 100%;
+}
+.left h1 {
+  margin: 16px 0 0 0;
+  color:#ad6002;
+}
+.left h2 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.right p {
+  text-align: justify;
+}
+
+.desc {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.submit {
+  transition: all 0.5s;
+  background-color: cadetblue;
+}
+
+.readmore {
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: cadetblue;
+}
+
+.readmore span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.readmore span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.readmore:hover span {
+  padding-right: 25px;
+}
+
+.readmore:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.address h3 {
+    color: #ad6002;
+}
+
+.address span {
+    color: black;
+    font-weight: lighter;
+}
+
+  .address {
+  width: 50%;
+  }
+  .contact {
+  width: 50%;
+  }
+  .contact h3 {
+      color: #ad6002;
+  }
+
+  .contact  h3 span {
+      color: black;
+      font-weight: lighter;
+  }
+
+  .address a {
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+  }
+
+  .maps {
+      width: auto;
+      height: 240px;
+  }
+
+
+  @media all and (max-width: 670px) {
+      .left {
+          width: 100%;
+          text-align: center;
+      }
+      .right {
+          width: 100%;
+          text-align: center;
+      }
+      .address {
+          width: 100%;
+          padding-left: 30px;
+      }
+      .contact {
+          width: 100%;
+          padding-left: 30px;
+
+      }
+  }
+
+  input[type=text], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-top: 4px;
+      margin-bottom: 16px;
+    }
+
+    .containForm {
+        padding-right: 30%;
+    }
